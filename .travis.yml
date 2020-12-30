@@ -8,7 +8,7 @@ node_js:
   - node
 install:
   - npm ci
-  - npm install --only=dev
+  - npm install
   - npm install typescript -g
   - npm install eslint -g
 script:
